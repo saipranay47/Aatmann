@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Cottages from "./pages/Cottages";
+import Ketaki from "./pages/Ketaki";
+import Hazara from "./pages/Hazara";
+import Aparajita from "./pages/Aparajita";
+import Tribute from "./pages/Tribute";
+import CulinaryDelights from "./pages/CulinaryDelights";
+import AppHeader from "./components/AppHeader";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppHeader />
+      <ScrollToTop/>
+      <div className=" md:mt-20 lg:mt-20 mt-14">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/cottages" element={<Cottages />} />
+          <Route path="/cottages/Ketaki" element={<Ketaki />} />
+          <Route path="/cottages/Hazara" element={<Hazara />} />
+          <Route path="/cottages/Aparajita" element={<Aparajita />} />
+          <Route path="/tribute" element={<Tribute />} />
+          <Route path="/culinary-delights" element={<CulinaryDelights />} />
+        </Routes>
+      </div>
     </div>
   );
 }
