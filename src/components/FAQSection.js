@@ -12,37 +12,35 @@ const FAQSection = () => {
   const questions = [
     {
       id: 1,
-      question: "What is the cancellation policy for booking a cottage?",
-      answer:
-        " Our cancellation policy allows you to cancel your booking up to 48 hours before your arrival date. If you cancel within this period, you will receive a full refund. However, if you cancel within 48 hours of your arrival, no refund will be provided.",
+      question: "Is the property pet friendly?",
+      answer: " Yes, they are our beloved companions and they are welcome.",
       image: Image1,
     },
     {
       id: 2,
-      question: "Are pets allowed in the cottages?",
+      question: "What about alcohol and other substances?",
       answer:
-        "Yes, we are a pet-friendly property. Pets are welcome in our cottages, but we kindly request that you inform us about your pet in advance. Additional charges may apply. Please note that pets must be well-behaved, and you are responsible for any damages caused by your pet.",
+        "No, at Aatmann alcohol, smoking, or any kind of substance use is prohibited. ",
       image: Image2,
     },
     {
       id: 3,
-      question: "Are the cottages equipped with Wi-Fi and other amenities?",
+      question: "Can we walk around the property?",
       answer:
-        "Yes, all our cottages come with complimentary Wi-Fi access for our guests. Additionally, each cottage is equipped with a flat-screen TV, a fully equipped kitchen, air conditioning, heating, and essential bathroom amenities.",
+        " Yes, Aatmann is surrounded by our 60-acre two-century-old fruit orchid and we invite you to walk around and absorb the information provided by nature.",
       image: Cottageimg,
     },
     {
       id: 4,
-      question: "Is there parking available on-site?",
+      question: "Do you sell any organic products that you use?",
       answer:
-        "Yes, we offer free on-site parking for our guests. Each cottage has an allocated parking space. If you require additional parking or have a larger vehicle, please contact us in advance to discuss your needs.",
+        "Yes, there is a dedicated store on the property which has products made at Aatmann and available to be bought by our guests. ",
       image: Cottageimg,
     },
     {
       id: 5,
-      question: "Do the cottages have any accessibility features?",
-      answer:
-        "Yes, we are committed to providing an inclusive and accessible experience for all our guests. Our cottages are equipped with accessibility features, including ramp access, wider doorways, and grab bars in the bathrooms. Please contact us in advance if you require any additional accommodations, and we will be happy to assist you.",
+      question: "Do you serve meat dishes?",
+      answer: "No, we are a pure vegetarian property. ",
       image: Image2,
     },
   ];

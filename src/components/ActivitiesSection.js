@@ -78,7 +78,7 @@ function ActivitiesSection() {
           </p>
           <br />
           <Buttonsp
-            lroute="/culinarydelights"
+            lroute="/culinary-delights"
             title="Know more"
             className="hidden"
           />

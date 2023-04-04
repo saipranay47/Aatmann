@@ -16,10 +16,14 @@ function Feedback() {
           </h1>
 
           <p class="mt-8 max-w-lg text-tex">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            praesentium natus sapiente commodi. Aliquid sunt tempore iste
-            repellendus explicabo dignissimos placeat, autem harum dolore
-            reprehenderit quis! Quo totam dignissimos earum.
+            Discover what our customers have to say about their stay at Aatmann
+            Farm Stay by reading our trusted reviews. Our valued guests share
+            their honest and detailed feedback about their experience,
+            highlighting the quality of our accommodations, the warmth of our
+            hospitality, and the beauty of our surroundings. Whether you are
+            looking for inspiration or reassurance, our reviews provide a
+            glimpse into the unforgettable experiences that await you at Aatmann
+            Farm Stay.
           </p>
         </div>
 

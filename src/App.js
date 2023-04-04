@@ -10,12 +10,17 @@ import Tribute from "./pages/Tribute";
 import CulinaryDelights from "./pages/CulinaryDelights";
 import AppHeader from "./components/AppHeader";
 import ScrollToTop from "./components/ScrollToTop";
+import Whatsapp from "./components/Whatsapp";
 
 function App() {
   return (
     <div className="App">
       <AppHeader />
-      <ScrollToTop/>
+      <ScrollToTop />
+      <div className="relative z-50">
+        <Whatsapp />
+      </div>
+
       <div className=" md:mt-20 lg:mt-20 mt-14">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -27,6 +32,7 @@ function App() {
           <Route path="/cottages/Aparajita" element={<Aparajita />} />
           <Route path="/tribute" element={<Tribute />} />
           <Route path="/culinary-delights" element={<CulinaryDelights />} />
+          {/* <Route path="/enquire-booking" element={<EnquireBooking />} /> */}
         </Routes>
       </div>
     </div>

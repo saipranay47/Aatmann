@@ -199,7 +199,7 @@ function AppHeader() {
               </div>
               <div className="mt-12 md:mt-0 lg:mt-0 ">
                 <Button2
-                  lroute="/enquire-booking"
+                  lroute="https://wa.me/918766015085"
                   title="Enquire Booking"
                   onClick={() => setIsMenuOpen(!isMenuOpen)}
                 />

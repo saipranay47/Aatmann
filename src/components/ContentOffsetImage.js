@@ -30,7 +30,8 @@ function ContentOffsetImage({
 
             <p className="hidden text-tex md:my-4 md:block">{discription}</p>
 
-            <Button2 lroute={toRoute} title="More Details" />
+            {toRoute && <Button2 lroute={toRoute} title="More Details" />}
+
           </div>
         </div>
 
