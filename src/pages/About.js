@@ -9,8 +9,8 @@ function About() {
         backgroundImage: "url(/noice.png)",
       }}
     >
-      <div className="flex w-full justify-evenly">
-        <div className="h-full py-28 flex flex-col justify-evenly">
+      <div className="flex w-full justify-evenly lg:flex-row flex-col lg:p-0 p-5">
+        <div className="h-full lg:py-28 flex flex-col justify-evenly">
           <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd text-left ">
             About{" "}
             <span className=" font-normal italic font-pd text-or ">us</span>
@@ -23,7 +23,8 @@ function About() {
             produce, serene landscapes, and warm hospitality.
           </p>
         </div>
-        <div className="h-full py-28 flex flex-col justify-evenly">
+        <br />
+        <div className="h-full lg:py-28 flex flex-col justify-evenly">
           <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd text-left ">
             Mission {" "}
             <span className=" font-normal italic font-pd text-or ">
