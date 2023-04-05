@@ -28,7 +28,7 @@ function Feedback() {
         </div>
 
         <Link
-          to="/guests"
+          to="/reviews"
           class="mt-8 inline-flex shrink-0 items-center gap-2 rounded-full border border-or px-5 py-3 font-medium text-or hover:bg-or hover:text-tex sm:mt-0 lg:mt-8 cursor-pointer"
         >
           Read all reviews

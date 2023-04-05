@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image1 from "../images/hazara.jpeg";
 import Image2 from "../images/ketaki.jpeg";
-import Image3 from "../images/aparajita.jpeg";
+import dogs from "../images/dogs.jpeg";
 import Cottageimg from "../images/cottageimg.jpeg";
 import AccordionItem from "./AccordionItem";
 
@@ -14,7 +14,7 @@ const FAQSection = () => {
       id: 1,
       question: "Is the property pet friendly?",
       answer: " Yes, they are our beloved companions and they are welcome.",
-      image: Image1,
+      image: dogs,
     },
     {
       id: 2,

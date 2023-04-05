@@ -19,14 +19,14 @@ function Contact() {
           <div className="flex w-full items-center justify-between flex-wrap lg-mb-0 max-w-2xl">
             <div className="">
               <p className="uppercase">Phone</p>
-              <p className="text-3xl">+1 (123) 456-7890</p>
+              <p className="text-3xl">+91 87660 15085</p>
             </div>
             <div className="">
               <p className="uppercase">Email</p>
-              <p className="text-3xl">info@example.com</p>
+              <p className="text-3xl">aatmanndahanu@gmail.com</p>
             </div>
           </div>
-          <FAQSection/>
+          <FAQSection />
         </div>
         <div className="md:w-5/12 p-4">
           <iframe

@@ -20,6 +20,7 @@
     "react-whatsapp-chat-widget": "^1.1.6",
     "react-whatsapp-widget": "^2.2.0",
     "swiper": "^9.1.1",
+    "video.js": "^8.0.4",
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.19"
   },

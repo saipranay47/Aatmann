@@ -1,4 +1,5 @@
 import React from "react";
+import bapan from "../images/Punamchandji Dhanrajji Baphna.jpeg";
 
 function Tribute() {
   return (
@@ -56,8 +57,8 @@ function Tribute() {
             </p>
           </div>
           <img
-            src="/Ketki/DSC_3093.jpg"
-            alt="tribute"
+            src={bapan}
+            alt="Punamchandji Dhanrajji Baphna"
             className=" md:w-2/5 lg:w-2/5 w-full md:p-0 lg:p-0 p-10 object-cover"
           />
         </div>

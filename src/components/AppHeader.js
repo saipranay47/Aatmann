@@ -16,15 +16,17 @@ function AppHeader() {
   };
 
   useEffect(() => {
-    if (isMenuOpen) {
-      disableScroll();
-    } else {
-      enableScroll();
-    }
+    if (window.innerWidth <= 768) {
+      if (isMenuOpen) {
+        disableScroll();
+      } else {
+        enableScroll();
+      }
 
-    return () => {
-      enableScroll();
-    };
+      return () => {
+        enableScroll();
+      };
+    }
   }, [isMenuOpen]);
 
   return (
@@ -179,6 +181,15 @@ function AppHeader() {
                   </li>
                   <li>
                     <Link
+                      to="/activities"
+                      class="block md:px-4 transition hover:text-primary hover:underline"
+                      onClick={() => setIsMenuOpen(!isMenuOpen)}
+                    >
+                      Activities
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
                       to="/culinary-delights"
                       class="block md:px-4 transition hover:text-primary hover:underline"
                       onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -197,7 +208,7 @@ function AppHeader() {
                   </li>
                 </ul>
               </div>
-              <div className="mt-12 md:mt-0 lg:mt-0 ">
+              <div className="mt-12 md:mt-5 lg:mt-0 ">
                 <Button2
                   lroute="https://wa.me/918766015085"
                   title="Enquire Booking"

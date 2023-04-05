@@ -11,6 +11,8 @@ import CulinaryDelights from "./pages/CulinaryDelights";
 import AppHeader from "./components/AppHeader";
 import ScrollToTop from "./components/ScrollToTop";
 import Whatsapp from "./components/Whatsapp";
+import Activities from "./pages/Activities";
+import Reviews from "./pages/Reviews";
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
           <Route path="/cottages/Aparajita" element={<Aparajita />} />
           <Route path="/tribute" element={<Tribute />} />
           <Route path="/culinary-delights" element={<CulinaryDelights />} />
+          <Route path="/activities" element={<Activities />} />
+          <Route path="/reviews" element={<Reviews />} />
           {/* <Route path="/enquire-booking" element={<EnquireBooking />} /> */}
         </Routes>
       </div>
