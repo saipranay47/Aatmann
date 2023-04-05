@@ -85,7 +85,7 @@ function Home() {
 
         <p className=" text-tex  text-lg max-w-lg text-center">
           If the desire to rest in the middle of a quiet forest has been
-          haunting you for a long time - then you should come to us. “Aathman
+          haunting you for a long time - then you should come to us. “Aathmann
           Dahanu” From Nature With Nature
         </p>
       </section>
