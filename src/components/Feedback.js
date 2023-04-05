@@ -52,18 +52,33 @@ function Feedback() {
       <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <FeedbackCard
           rating={5}
-          testimonial="Our experience at this wonderful cottage exceeded all our expectations. The staff were incredibly friendly, and the ambiance was just perfect for a relaxing getaway. We can't wait to come back for another visit!"
-          author="Eddie Murphy"
+          testimonial="We stayed here (as a family of 8) and had a wonderful New Years celebration. This farm is vegetarian (no alcohol is served either). The warm hosts (Bafna family) go out of their way to ensure your comfort and satisfaction – be it with the delicious vegetarian spread, high quality ingredients, cleanliness and top notch service. They accommodated every request with a smile. The cottages are lovely (and recommended) and close to the reception / cafeteria, and the deluxe rooms are a 2 minute walk outside the property. The pool is wonderful, there is a less crowded beach (20 minutes away) and the games room is well stocked. Highly recommended for a getaway from the city."
+          author="Naina Hiranandani"
         />
         <FeedbackCard
           rating={2}
-          testimonial="From the moment we arrived, we knew we had made the right choice. The breathtaking views, the cozy atmosphere, and the delicious food made our stay truly memorable. The attention to detail and the warm hospitality will definitely bring us back!"
-          author="Jane Smith"
+          testimonial="One of the best experience I have ever had!!
+
+We celebrated our Anniversary at the Aatmann Dahanu and god! It was the best decision we took!
+
+The food, hospitality, ambience & out of the way services provided by Ajay uncle & his staff is too good
+
+The minute we entered the place, we felt at home! They give 100% organic food w/o sugar & maida & totally everything is made / grown in their farms
+
+Was there any compromise on taste? Absolutely zero! We’ve eaten some of the best food there & experienced unique food items (worth trying)
+
+Special occasion or just a getaway from the city, I highly recommend Aatmann to all"
+          author="Nidhi Shah"
         />
         <FeedbackCard
           rating={5}
-          testimonial="I can't say enough about the fantastic time we had during our stay at this cottage. The surroundings were serene, the accommodations were top-notch, and the staff went above and beyond to make us feel welcome. It's the perfect escape from the hustle and bustle of city life."
-          author="John Doe"
+          testimonial="exceptional. They ensure you are taken care of completely. The farm visits are very well planned out and they are fabulous experiences for the kids. The cottages are spacious and well maintained and the amenities are very good . The food is fresh, everything is from the farm and kid friendly. The staff is very courteous and friendly.
+It's a great experience and worth the visit. The property is serene, the attention from the family is meticulous with a lot of care and the overall experience is   fabulous.
+
+Nearby activities: Farm visits, fruit farm, spices farm, vegetable farm. Side seeing the beach, temple. All well planned by the host.
+
+Food & drinks: Everything was served fresh and made on premise. Very good quality. Kid friendly and attention to detail from the host family."
+          author="Hanish Ved"
         />
       </div>
     </div>
