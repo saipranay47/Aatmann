@@ -40,7 +40,11 @@ function Home() {
               </p>
 
               <div className="flex justify-center items-center mt-10">
-                <a href="#_" class="relative inline-block text-lg group">
+                <a
+                  href="https://wa.me/918766015085"
+                  target="_"
+                  class="relative inline-block text-lg group"
+                >
                   <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-black transition-colors duration-300 ease-out border-2 border-or rounded-3xl group-hover:text-tex">
                     <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-3xl bg-tex"></span>
                     <span class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-or group-hover:-rotate-180 ease"></span>
@@ -56,6 +60,7 @@ function Home() {
           </div>
         </section>
       </div>
+      <hr />
       <section
         className="h-72 flex justify-center items-center"
         style={{
@@ -85,11 +90,12 @@ function Home() {
 
         <p className=" text-tex  text-lg max-w-lg text-center">
           If the desire to rest in the middle of a quiet forest has been
-          haunting you for a long time - then you should come to us. “Aathmann
+          haunting you for a long time - then you should come to us. “Aatmann
           Dahanu” From Nature With Nature
         </p>
       </section>
-
+      <hr />
+      <hr />
       {/* cottage*/}
       <section
         className=" min-h-screen flex justify-center items-center"
@@ -100,7 +106,9 @@ function Home() {
         <div>
           <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd text-center lg:mb-6">
             Choose{" "}
-            <span className=" font-normal italic font-pd text-or ">your cottage</span>
+            <span className=" font-normal italic font-pd text-or ">
+              your cottage
+            </span>
           </h1>
 
           <div className="container mx-auto pt-8">
@@ -121,13 +129,13 @@ function Home() {
                   <div className="pt-3">
                     <h3 className="text-2xl font-semibold mb-1">Ketaki</h3>
                     <p className="text-sm line-clamp-5">
-                      Ketaki or Maa saraswati is a cottage devoted to the
-                      goddess of knowledge. The whole theme is qhite as Maa
-                      saraswati shloka has ya shwet padmasana. The bathroom is
-                      made up of lime, kgopra or coconut kernel, kokam wax, rice
-                      grains. The dohad or quilt is made with colors derived
-                      from the petals of hibiscus flowers and pillows infused
-                      with need leaves.
+                      Ketaki is a cottage devoted to the goddess of knowledge,
+                      Maa Saraswati. The whole theme is qhite as Maa saraswati
+                      shloka has ya shwet padmasana. The bathroom is made up of
+                      lime, kgopra or coconut kernel, kokam wax, rice grains.
+                      The dohad or quilt is made with colors derived from the
+                      petals of hibiscus flowers and pillows infused with need
+                      leaves.
                     </p>
                   </div>
                 </div>
@@ -149,12 +157,12 @@ function Home() {
                   <div className="pt-3">
                     <h3 className="text-2xl font-semibold mb-1">Hazara</h3>
                     <p className="text-sm text-ellipsis">
-                      Hazara or Maa Laxmi is dedicated to the goddess of wealth.
-                      In india wealth is gold and gold is yellow colour so to
-                      give it a rustic look the bathrooms and the upholstery
-                      have been made with turmeric or haldi. The pillows are
-                      infused with neem leaves and the quilts are made with
-                      turmeric, sandal and woodash.
+                      Hazara is a cottage devoted to the goddess of wealth, Maa
+                      Laxmi. In india wealth is gold and gold is yellow colour
+                      so to give it a rustic look the bathrooms and the
+                      upholstery have been made with turmeric or haldi. The
+                      pillows are infused with neem leaves and the quilts are
+                      made with turmeric, sandal and woodash.
                     </p>
                   </div>
                 </div>
@@ -176,12 +184,12 @@ function Home() {
                   <div className="pt-3">
                     <h3 className="text-2xl font-semibold mb-1">Aparajita</h3>
                     <p className="text-sm line-clamp-5">
-                      Aparajita or Maa Parvati is best described as goddess of
-                      power. The cottage is a fusion between modern and medieval
-                      architecture. The bathroom is made up of cobalt dioxide
-                      which gives a blue colour and is mixed with aloevera gel,
-                      lime, rice husk. The quilts are colored with colors
-                      derived from the local plants of mahuva and palash.
+                      Aparajita is best described as the goddess of power,
+                      Maa Parvati. The cottage is a fusion between modern and
+                      medieval architecture. The bathroom is made up of cobalt
+                      dioxide which gives a blue colour and is mixed with
+                      aloevera gel, lime, rice husk. The quilts are colored with
+                      colors derived from the local plants of mahuva and palash.
                     </p>
                   </div>
                 </div>
@@ -192,6 +200,8 @@ function Home() {
           <Buttonsp lroute="cottages" title="Know more" />
         </div>
       </section>
+      <hr />
+      <hr />
       {/* FAQ section */}
       <section
         className=" min-h-screen flex justify-center items-center flex-col"
@@ -199,9 +209,11 @@ function Home() {
           backgroundImage: "url(./noice.png)",
         }}
       >
-        
         <FAQSection />
       </section>
+
+      <hr />
+      <hr />
 
       {/* Activites section */}
       <section
@@ -210,9 +222,10 @@ function Home() {
           backgroundImage: "url(./noice.png)",
         }}
       >
-        
         <ActivitiesSection />
       </section>
+      <hr />
+      <hr />
       {/* Feedback section */}
       <section
         className=" min-h-screen flex justify-center items-center flex-col"
@@ -220,7 +233,6 @@ function Home() {
           backgroundImage: "url(./noice.png)",
         }}
       >
-        
         <Feedback />
       </section>
     </div>

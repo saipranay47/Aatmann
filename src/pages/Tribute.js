@@ -1,10 +1,11 @@
 import React from "react";
 import bapan from "../images/Punamchandji Dhanrajji Baphna.jpeg";
+import pic2 from "../images/pic2.jpeg";
 
 function Tribute() {
   return (
     <section
-      className=" min-h-screen flex justify-center"
+      className=" min-h-screen flex justify-center pb-10"
       style={{
         backgroundImage: "url(./noice.png)",
       }}
@@ -55,6 +56,11 @@ function Tribute() {
               Come to Aatmann Dahanu and experience a "From nature with nature"
               concept.
             </p>
+            <img
+              src={pic2}
+              alt="Punamchandji Dhanrajji Baphna"
+              className="object-cover mt-10"
+            />
           </div>
           <img
             src={bapan}

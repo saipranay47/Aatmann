@@ -1,6 +1,6 @@
 import React from "react";
 
-function FeedbackCard({ rating, testimonial, author }) {
+function FeedbackCard({ testimonial, author }) {
   return (
     <blockquote className="flex h-full flex-col bg-[#fbfbfbb3] p-12 justify-start rounded-xl">
       <div className="mt-4">
