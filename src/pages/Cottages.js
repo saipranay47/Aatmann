@@ -10,9 +10,7 @@ function Cottages() {
   return (
     <section
       className=" min-h-screen flex justify-center items-center"
-      style={{
-        backgroundImage: "url(./noice.png)",
-      }}
+      
     >
       <div>
         <br />

@@ -6,9 +6,7 @@ function Contact() {
   return (
     <section
       className=" min-h-screen flex justify-center items-center flex-col"
-      style={{
-        backgroundImage: "url(./noice.png)",
-      }}
+      
     >
       <div className="flex flex-col md:flex-row w-full text-tex p-5">
         <div className="md:w-7/12 p-4">

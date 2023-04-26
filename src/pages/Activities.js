@@ -5,9 +5,7 @@ function Activities() {
   return (
     <section
       className=" min-h-screen flex justify-center items-center flex-col"
-      style={{
-        backgroundImage: "url(/noice.png)",
-      }}
+      
     >
       <div className="h-full lg:py-28 flex flex-col justify-center items-center">
         <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd text-center ">

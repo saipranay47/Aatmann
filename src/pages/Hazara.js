@@ -24,9 +24,7 @@ function Hazara() {
   return (
     <section
       className=" min-h-screen flex justify-center items-center flex-col"
-      style={{
-        backgroundImage: "url(/noice.png)",
-      }}
+      
     >
       <div className="min-h-screen mt-10">
         <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd text-center ">

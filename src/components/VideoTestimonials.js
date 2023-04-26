@@ -18,9 +18,7 @@ function VideoTestimonials() {
   return (
     <section
       className="min-h-screen flex justify-center items-center flex-col"
-      style={{
-        backgroundImage: "url(/background.jpg)",
-      }}
+      
     >
       <div className="masonry sm:masonry-sm md:masonry-md ">
         {videos.map((video, index) => (

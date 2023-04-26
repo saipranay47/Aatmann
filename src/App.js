@@ -16,7 +16,12 @@ import Reviews from "./pages/Reviews";
 
 function App() {
   return (
-    <div className="App">
+    <div
+      className="App bg-[#31553b]"
+      style={{
+        backgroundImage: "url(./noice.png)",
+      }}
+    >
       <AppHeader />
       <ScrollToTop />
       <div className="relative z-50">

@@ -5,9 +5,7 @@ function About() {
   return (
     <section
       className="flex justify-center items-center flex-col"
-      style={{
-        backgroundImage: "url(/noice.png)",
-      }}
+      
     >
       <div className="flex w-full justify-evenly lg:flex-row flex-col lg:p-0 p-5">
         <div className="h-full lg:py-28 flex flex-col justify-evenly">

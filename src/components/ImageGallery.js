@@ -23,9 +23,7 @@ function ImageGallery() {
   return (
     <section
       className=" min-h-screen flex justify-center items-center flex-col"
-      style={{
-        backgroundImage: "url(/noice.png)",
-      }}
+      
     >
       <div className="masonry sm:masonry-sm md:masonry-md ">
         {images.map((image, index) => (

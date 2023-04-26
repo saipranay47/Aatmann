@@ -6,9 +6,7 @@ function Tribute() {
   return (
     <section
       className=" min-h-screen flex justify-center pb-10"
-      style={{
-        backgroundImage: "url(./noice.png)",
-      }}
+      
     >
       <div className=" text-tex px-8">
         <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd text-center mb-8 my-10 mt-10">

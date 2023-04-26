@@ -9,9 +9,7 @@ function CulinaryDelights() {
   return (
     <section
       className="flex justify-center items-center flex-col"
-      style={{
-        backgroundImage: "url(/noice.png)",
-      }}
+      
     >
       <br />
       <br />

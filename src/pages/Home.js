@@ -9,6 +9,7 @@ import Buttonsp from "../components/Buttonsp";
 import FAQSection from "../components/FAQSection";
 import ActivitiesSection from "../components/ActivitiesSection";
 import Feedback from "../components/Feedback";
+import divider from "../images/DIVIDER.svg";
 
 function Home() {
   return (
@@ -23,7 +24,7 @@ function Home() {
       >
         <section
           data-cy="paragraph-hero"
-          className="pt-8 md:pt-12 lg:pt-40 pb-8 md:pb-12 lg:pb-40 border-b bg-no-repeat bg-cover "
+          className="pt-8 md:pt-12 lg:pt-40 pb-8 md:pb-12 lg:pb-40 bg-no-repeat bg-cover "
         >
           <div className="container px-6 mx-auto text-center">
             <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-or font-pd ">
@@ -60,13 +61,8 @@ function Home() {
           </div>
         </section>
       </div>
-      <hr />
-      <section
-        className="h-72 flex justify-center items-center"
-        style={{
-          backgroundImage: "url(./noice.png)",
-        }}
-      >
+
+      <section className="h-72 flex justify-center items-center">
         <svg
           className="left-20 absolute opacity-0 lg:opacity-100"
           width="117"
@@ -94,15 +90,10 @@ function Home() {
           Dahanu” From Nature With Nature
         </p>
       </section>
-      <hr />
-      <hr />
+      <br />
+      <img src={divider} alt="" className=" bg-transparent w-full h-3" />
       {/* cottage*/}
-      <section
-        className=" min-h-screen flex justify-center items-center"
-        style={{
-          backgroundImage: "url(./noice.png)",
-        }}
-      >
+      <section className=" min-h-screen flex justify-center items-center">
         <div>
           <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd text-center lg:mb-6">
             Choose{" "}
@@ -184,8 +175,8 @@ function Home() {
                   <div className="pt-3">
                     <h3 className="text-2xl font-semibold mb-1">Aparajita</h3>
                     <p className="text-sm line-clamp-5">
-                      Aparajita is best described as the goddess of power,
-                      Maa Parvati. The cottage is a fusion between modern and
+                      Aparajita is best described as the goddess of power, Maa
+                      Parvati. The cottage is a fusion between modern and
                       medieval architecture. The bathroom is made up of cobalt
                       dioxide which gives a blue colour and is mixed with
                       aloevera gel, lime, rice husk. The quilts are colored with
@@ -200,39 +191,25 @@ function Home() {
           <Buttonsp lroute="cottages" title="Know more" />
         </div>
       </section>
-      <hr />
-      <hr />
+      <br />
+      <img src={divider} alt="" className=" bg-transparent w-full h-3" />
       {/* FAQ section */}
-      <section
-        className=" min-h-screen flex justify-center items-center flex-col"
-        style={{
-          backgroundImage: "url(./noice.png)",
-        }}
-      >
+      <section className=" min-h-screen flex justify-center items-center flex-col">
         <FAQSection />
       </section>
 
-      <hr />
-      <hr />
+      <br />
+      <img src={divider} alt="" className=" bg-transparent w-full h-3" />
+      <br />
 
       {/* Activites section */}
-      <section
-        className=" min-h-screen flex justify-center items-center flex-col"
-        style={{
-          backgroundImage: "url(./noice.png)",
-        }}
-      >
+      <section className=" min-h-screen flex justify-center items-center flex-col">
         <ActivitiesSection />
       </section>
-      <hr />
-      <hr />
+      <br />
+      <img src={divider} alt="" className=" bg-transparent w-full h-3" />
       {/* Feedback section */}
-      <section
-        className=" min-h-screen flex justify-center items-center flex-col"
-        style={{
-          backgroundImage: "url(./noice.png)",
-        }}
-      >
+      <section className=" min-h-screen flex justify-center items-center flex-col">
         <Feedback />
       </section>
     </div>
