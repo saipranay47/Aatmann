@@ -9,16 +9,30 @@
 @layer utilities {
     @variants responsive {
         .masonry {
-            column-gap: 1.5em;
             column-count: 1;
         }
         .masonry-sm {
-            column-gap: 1.5em;
             column-count: 2;
         }
         .masonry-md {
-            column-gap: 1.5em;
             column-count: 3;
+        }
+        .break-inside {
+            break-inside: avoid;
+        }
+
+    }
+}
+@layer utilities {
+    @variants responsive {
+        .vidmasonry {
+            column-count: 1;
+        }
+        .vidmasonry-sm {
+            column-count: 1;
+        }
+        .vidmasonry-md {
+            column-count: 2;
         }
         .break-inside {
             break-inside: avoid;

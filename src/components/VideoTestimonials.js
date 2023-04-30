@@ -4,7 +4,7 @@ import video2 from "../images/testimonials/2.mp4";
 import video4 from "../images/testimonials/4.mp4";
 
 function VideoTestimonials() {
-  const videos = [video1, video2, video4];
+  const videos = [video2,video4, video1];
   const [selectedVideo, setSelectedVideo] = useState(null);
 
   const handleVideoClick = (video) => {
@@ -17,14 +17,14 @@ function VideoTestimonials() {
 
   return (
     <section
-      className="min-h-screen flex justify-center items-center flex-col"
+      className="flex justify-center items-center flex-col"
       
     >
-      <div className="masonry sm:masonry-sm md:masonry-md ">
+      <div className="vidmasonry sm:vidmasonry-sm md:vidmasonry-md ">
         {videos.map((video, index) => (
           <div
             key={index}
-            className="rounded-lg p-4 break-inside relative cursor-pointer"
+            className="rounded-lg pb-4 break-inside relative cursor-pointer"
             tabIndex={0}
             onClick={() => handleVideoClick(video)}
             onKeyPress={(e) => {

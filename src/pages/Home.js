@@ -1,6 +1,5 @@
 import React from "react";
 import Loading from "../components/Loading";
-import DSC_3438 from "../images/DSC_3438.JPG";
 import Ketaki from "../images/ketaki.jpeg";
 import Hazara from "../images/hazara.jpeg";
 import Aparajita from "../images/aparajita.jpeg";
@@ -21,6 +20,7 @@ function Home() {
         style={{
           backgroundImage: "url(./DSC_3438.JPG)",
         }}
+        
       >
         <section
           data-cy="paragraph-hero"
