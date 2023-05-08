@@ -22,15 +22,12 @@ function Hazara() {
     "DSC_3497.jpg",
   ];
   return (
-    <section
-      className=" min-h-screen flex justify-center items-center flex-col"
-      
-    >
+    <section className=" min-h-screen flex justify-center items-center flex-col">
       <div className="min-h-screen mt-10">
         <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd text-center ">
           Hazara{" "}
           <span className=" font-normal italic font-pd text-or ">
-            or Maa saraswati
+            or Maa Laxmi
           </span>
         </h1>
         <div>

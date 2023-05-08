@@ -9,6 +9,7 @@ import FAQSection from "../components/FAQSection";
 import ActivitiesSection from "../components/ActivitiesSection";
 import Feedback from "../components/Feedback";
 import divider from "../images/DIVIDER.svg";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -20,7 +21,6 @@ function Home() {
         style={{
           backgroundImage: "url(./DSC_3438.JPG)",
         }}
-        
       >
         <section
           data-cy="paragraph-hero"
@@ -107,7 +107,7 @@ function Home() {
               {/* card ketaki */}
               <div className="w-full md:w-1/3 p-5 mb-10">
                 <div className="text-tex rounded-lg overflow-hidden">
-                  <div className="relative">
+                  <Link to="/cottages/ketaki" className="relative">
                     <img
                       src={Ketaki}
                       alt="Ketaki"
@@ -116,7 +116,7 @@ function Home() {
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-[#0000008e] cursor-pointer">
                       <img src={Arrow} alt="" />
                     </div>
-                  </div>
+                  </Link>
                   <div className="pt-3">
                     <h3 className="text-2xl font-semibold mb-1">Ketaki</h3>
                     <p className="text-sm line-clamp-5">
@@ -135,7 +135,7 @@ function Home() {
               {/* card hazara */}
               <div className="w-full md:w-1/3 p-4 mb-10">
                 <div className="text-tex rounded-lg overflow-hidden">
-                  <div className="relative">
+                  <Link to="/cottages/hazara" className="relative">
                     <img
                       src={Hazara}
                       alt="Hazara"
@@ -144,7 +144,7 @@ function Home() {
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-[#0000008e] cursor-pointer">
                       <img src={Arrow} alt="" />
                     </div>
-                  </div>
+                  </Link>
                   <div className="pt-3">
                     <h3 className="text-2xl font-semibold mb-1">Hazara</h3>
                     <p className="text-sm text-ellipsis">
@@ -162,7 +162,7 @@ function Home() {
               {/* card aparajita */}
               <div className="w-full md:w-1/3 p-4 mb-10">
                 <div className="text-tex rounded-lg overflow-hidden">
-                  <div className="relative">
+                  <Link className="relative" to="/cottages/aparajita">
                     <img
                       src={Aparajita}
                       alt="Aparajita"
@@ -171,7 +171,7 @@ function Home() {
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-[#0000008e] cursor-pointer">
                       <img src={Arrow} alt="" />
                     </div>
-                  </div>
+                  </Link>
                   <div className="pt-3">
                     <h3 className="text-2xl font-semibold mb-1">Aparajita</h3>
                     <p className="text-sm line-clamp-5">
