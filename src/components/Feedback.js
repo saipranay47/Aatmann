@@ -7,7 +7,7 @@ function Feedback() {
     <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
       <div class="items-end justify-between sm:flex">
         <div class="max-w-xl">
-          <h1 className="text-3xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd lg:mb12 mb-8 ">
+          <h1 className="text-3xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd lg:mb12">
             Read trusted reviews
             <span className=" font-normal italic font-pd text-or ">
               {" "}
@@ -15,7 +15,7 @@ function Feedback() {
             </span>
           </h1>
 
-          <p class="mt-8 max-w-lg text-tex">
+          {/* <p class="mt-8 max-w-lg text-tex">
             Discover what our customers have to say about their stay at Aatmann
             Farm Stay by reading our trusted reviews. Our valued guests share
             their honest and detailed feedback about their experience,
@@ -24,12 +24,12 @@ function Feedback() {
             looking for inspiration or reassurance, our reviews provide a
             glimpse into the unforgettable experiences that await you at Aatmann
             Farm Stay.
-          </p>
+          </p> */}
         </div>
 
         <Link
           to="/reviews"
-          class="mt-8 inline-flex shrink-0 items-center gap-2 rounded-full border border-or px-5 py-3 font-medium text-or hover:bg-or hover:text-tex sm:mt-0 lg:mt-8 cursor-pointer"
+          class="mr-4 mt-8 inline-flex shrink-0 items-center gap-2 rounded-full border border-or px-5 py-3 font-medium text-or hover:bg-or hover:text-tex sm:mt-0 lg:mt-8 cursor-pointer"
         >
           Read all reviews
           <svg
@@ -51,12 +51,10 @@ function Feedback() {
 
       <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <FeedbackCard
-          rating={5}
           testimonial="We stayed here (as a family of 8) and had a wonderful New Years celebration. This farm is vegetarian (no alcohol is served either). The warm hosts (Bafna family) go out of their way to ensure your comfort and satisfaction – be it with the delicious vegetarian spread, high quality ingredients, cleanliness and top notch service. They accommodated every request with a smile. The cottages are lovely (and recommended) and close to the reception / cafeteria, and the deluxe rooms are a 2 minute walk outside the property. The pool is wonderful, there is a less crowded beach (20 minutes away) and the games room is well stocked. Highly recommended for a getaway from the city."
           author="Naina Hiranandani"
         />
         <FeedbackCard
-          rating={2}
           testimonial="One of the best experience I have ever had!!
 
 We celebrated our Anniversary at the Aatmann Dahanu and god! It was the best decision we took!
@@ -71,7 +69,6 @@ Special occasion or just a getaway from the city, I highly recommend Aatmann to 
           author="Nidhi Shah"
         />
         <FeedbackCard
-          rating={5}
           testimonial="exceptional. They ensure you are taken care of completely. The farm visits are very well planned out and they are fabulous experiences for the kids. The cottages are spacious and well maintained and the amenities are very good . The food is fresh, everything is from the farm and kid friendly. The staff is very courteous and friendly.
 It's a great experience and worth the visit. The property is serene, the attention from the family is meticulous with a lot of care and the overall experience is   fabulous.
 

@@ -63,7 +63,7 @@ function Home() {
       </div>
 
       <section className="h-72 flex justify-center items-center">
-        <svg
+        {/* <svg
           className="left-20 absolute opacity-0 lg:opacity-100"
           width="117"
           height="117"
@@ -82,12 +82,16 @@ function Home() {
             stroke="#FEE9BE"
             stroke-width="2"
           />
-        </svg>
+        </svg> */}
 
         <p className=" text-tex  text-lg max-w-lg text-center">
           If the desire to rest in the middle of a quiet forest has been
-          haunting you for a long time - then you should come to us. “Aatmann
-          Dahanu” From Nature With Nature
+          haunting you for a long time - then you should come to us.
+          <br />
+          <br />
+          <span className=" text-or font-pd text-2xl mt-10 font-semibold">
+            “Aatmann Dahanu” From Nature With Nature
+          </span>
         </p>
       </section>
       <br />
@@ -118,7 +122,7 @@ function Home() {
                     </div>
                   </Link>
                   <div className="pt-3">
-                    <h3 className="text-2xl font-semibold mb-1">Ketaki</h3>
+                    <h3 className="text-3xl font-semibold mb-1">Ketaki</h3>
                     <p className="text-sm line-clamp-5">
                       Ketaki is a cottage devoted to the goddess of knowledge,
                       Maa Saraswati. The whole theme is qhite as Maa saraswati
@@ -133,7 +137,7 @@ function Home() {
               </div>
 
               {/* card hazara */}
-              <div className="w-full md:w-1/3 p-4 mb-10">
+              <div className="w-full md:w-1/3 p-4 mb-10 ">
                 <div className="text-tex rounded-lg overflow-hidden">
                   <Link to="/cottages/hazara" className="relative">
                     <img
@@ -146,7 +150,7 @@ function Home() {
                     </div>
                   </Link>
                   <div className="pt-3">
-                    <h3 className="text-2xl font-semibold mb-1">Hazara</h3>
+                    <h3 className="text-3xl font-semibold mb-1">Hazara</h3>
                     <p className="text-sm text-ellipsis">
                       Hazara is a cottage devoted to the goddess of wealth, Maa
                       Laxmi. In india wealth is gold and gold is yellow colour
@@ -160,7 +164,7 @@ function Home() {
               </div>
 
               {/* card aparajita */}
-              <div className="w-full md:w-1/3 p-4 mb-10">
+              <div className="w-full md:w-1/3 p-4 mb-10 ">
                 <div className="text-tex rounded-lg overflow-hidden">
                   <Link className="relative" to="/cottages/aparajita">
                     <img
@@ -173,7 +177,7 @@ function Home() {
                     </div>
                   </Link>
                   <div className="pt-3">
-                    <h3 className="text-2xl font-semibold mb-1">Aparajita</h3>
+                    <h3 className="text-3xl font-semibold mb-1">Aparajita</h3>
                     <p className="text-sm line-clamp-5">
                       Aparajita is best described as the goddess of power, Maa
                       Parvati. The cottage is a fusion between modern and

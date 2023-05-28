@@ -76,6 +76,9 @@ const FAQSection = () => {
               questions
             </span>
           </h1>
+          <br />
+          <br />
+          <br />
           {questions.map((item) => (
             <AccordionItem
               key={item.id}

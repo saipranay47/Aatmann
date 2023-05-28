@@ -32,7 +32,7 @@ function AppHeader() {
   return (
     <header>
       <nav class="w-full bg-gray-900 text-tex fixed top-0 z-50">
-        <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+        <div class="max-w-8xl mx-auto px-6 md:px-12 xl:px-6">
           <div class="flex flex-wrap items-center justify-between py-2 gap-6 md:py-4 md:gap-0 relative">
             <input
               aria-hidden="true"
@@ -208,7 +208,7 @@ function AppHeader() {
                   </li>
                 </ul>
               </div>
-              <div className="mt-12 md:mt-5 lg:mt-0 ">
+              <div className="mt-12 md:mt-5 lg:mt-0 ml-3">
                 <Button2
                   lroute="https://wa.me/918766015085"
                   title="Enquire Booking"
