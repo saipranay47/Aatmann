@@ -8,14 +8,21 @@ function Tribute() {
       className=" min-h-screen flex justify-center pb-10"
       
     >
-      <div className=" text-tex px-8">
-        <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd text-center mb-8 my-10 mt-10">
+      <div className=" text-tex px-8 relative ">
+      <img
+              src={pic2}
+              alt="Punamchandji Dhanrajji Baphna"
+              className=" absolute object-cover mt-10  bg-black opacity-50"
+            />
+        <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd text-center mb-8 my-10 mt-10 relative container mx-auto h-full  ">
           Tribute to <br />
           <span className=" font-normal italic font-pd text-or ">
             Late Punamchandji Dhanrajji Baphna
           </span>
         </h1>
-        <div className="flex flex-wrap">
+            {/* <h3 class="absolute text-2xl text-blue-300 ">Top Left</h3> */}
+           </div>
+        {/* <div className="flex flex-wrap">
           <div className="md:pr-10  md:w-3/5 lg:w-3/5 w-full">
             <p className="text-lg text-left mb-4 ">
               A man with immense love for nature and a visionary, late
@@ -53,20 +60,16 @@ function Tribute() {
             <p className="text-lg text-left">
               Come to Aatmann Dahanu and experience a "From nature with nature"
               concept.
-            </p>
-            <img
-              src={pic2}
-              alt="Punamchandji Dhanrajji Baphna"
-              className="object-cover mt-10"
-            />
-          </div>
-          <img
+            </p> */}
+            
+          {/* </div> */}
+          {/* <img
             src={bapan}
             alt="Punamchandji Dhanrajji Baphna"
             className=" md:w-2/5 lg:w-2/5 w-full md:p-0 lg:p-0 p-10 object-cover"
-          />
-        </div>
-      </div>
+          /> */}
+        {/* </div> */}
+      {/* </div> */}
     </section>
   );
 }

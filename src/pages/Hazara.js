@@ -45,7 +45,7 @@ function Hazara() {
               or Maa Laxmi
             </span>
           </h1>
-          <p className="text-sm md:w-2/3 md:text-left">
+          <p className="text-base md:w-2/3 md:text-left">
             The Hazara or Maa Laxmi cottage at Aatmann Dahanu offers a unique
             and authentic experience, designed to immerse you in the rustic
             charm of Indian wealth. The cottage is senior citizen-friendly, with

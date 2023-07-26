@@ -216,6 +216,7 @@ function Home() {
       <section className=" min-h-screen flex justify-center items-center flex-col">
         <Feedback />
       </section>
+     
     </div>
   );
 }

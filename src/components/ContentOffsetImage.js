@@ -20,6 +20,7 @@ function ContentOffsetImage({
             src={img}
             className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-tr-[30px] md:h-[calc(100%_-_4rem)] md:rounded-tr-[60px] px-5 md:p-0 lg:p-0"
           />
+          
         )}
 
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">

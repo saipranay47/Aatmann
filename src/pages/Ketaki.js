@@ -49,7 +49,7 @@ function Ketaki() {
               or Maa saraswati
             </span>
           </h1>
-          <p className="text-sm md:w-2/3 md:text-left">
+          <p className="text-base md:w-2/3 md:text-left">
             Experience tranquility in the Ketaki Cottage, devoted to Maa
             Saraswati, the goddess of knowledge. The cottage is adorned with a
             soothing white theme, inspired by the shloka "ya shwet padmasana."

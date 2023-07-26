@@ -45,7 +45,7 @@ function Aparajita() {
               or Maa Parvati
             </span>
           </h1>
-          <p className="text-sm md:w-2/3 md:text-left">
+          <p className="text-base md:w-2/3 md:text-left">
             The Aparajita or Maa Parvati cottage at Aatmann Dahanu is a fusion
             of modern and medieval architecture, offering a unique and
             comfortable experience. The bathroom is made of cobalt dioxide mixed

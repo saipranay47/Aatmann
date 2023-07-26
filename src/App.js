@@ -13,6 +13,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Whatsapp from "./components/Whatsapp";
 import Activities from "./pages/Activities";
 import Reviews from "./pages/Reviews";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           {/* <Route path="/enquire-booking" element={<EnquireBooking />} /> */}
         </Routes>
       </div>
+      <Footer/>
     </div>
   );
 }
