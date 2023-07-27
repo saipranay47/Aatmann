@@ -42,6 +42,7 @@ const dinnerImages=[
         <span className=" font-normal italic font-pd text-or ">Delights</span>
       </h1>
       <CulinaryOffsetImages
+      
         title={"Wake up to a refreshing spread"}
         discription="At dawn, our spread includes fresh juices, a variety of fruits, an assortment of dry fruits (nuts), gulkand, baked cookies, sandwiches, hot beverages of choice, three hot breakfasts, fresh khakra, and a variety of condiments."
         img={breakfastImages}

@@ -7,18 +7,14 @@ function CulinaryOffsetImages({
   img,
   imagePlace = "right",
 }) {
-  const sectionClass = `overflow-hidden sm:grid sm:grid-cols-2 sm:items-center flex ${
+  const sectionClass = `overflow-hidden sm:grid sm:grid-cols-2 sm:items-center flex md:h-[70vh] ${
     imagePlace === "right" ? "flex-col-reverse" : "flex-col"
   }`;
   return (
     <div>
       <section className={sectionClass}>
         {imagePlace === "left" && (
-        //   <img
-        //     alt={title}
-        //     src={img}
-        //     className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-tr-[30px] md:h-[calc(100%_-_4rem)] md:rounded-tr-[60px] px-5 md:p-0 lg:p-0"
-        //   />
+        
         <div >
           <ImageCarousel imagePlace="left"  autoslide={true}  >
             {img.map((s)=>(

@@ -16,9 +16,8 @@ const ImageCarousel = ({ children: slides, imagePlace, autoslide=false,autoslide
   })
   return (
     <div
-      // className="overflow-hidden relative md:h-[470px] md:w-[890px] "
-      className={`overflow-hidden relative md:h-[470px] ${
-        imagePlace == "left" ? "rounded-tr-[60px] " : "rounded-tl-[60px] "
+      className={`overflow-hidden relative md:h-[470px] sm:rounded-[60px]  ${
+        imagePlace == "left" ? "md:ml-[30px] " : "md:mr-[30px] "
       }`}
     >
       <div
