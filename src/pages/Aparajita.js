@@ -4,19 +4,27 @@ import KetakiImg from "../images/ketaki.jpeg";
 import HazaraImg from "../images/hazara.jpeg";
 import AparajitaImg from "../images/aparajita.jpeg";
 import Arrow from "../images/arrow.svg";
-import DynamicCarousel from "../components/DynamicCarousel";
+import CottageCarousel from "../components/CottageCarousel";
 import { Link } from "react-router-dom";
+import img1 from "../images/Aparajita/DSC_3809.jpg"
+import img2 from "../images/Aparajita/DSC_3789.jpg"
+import img3 from "../images/Aparajita/DSC_3777.jpg"
+import img4 from "../images/Aparajita/DSC_3832.jpg"
+import img5 from "../images/Aparajita/DSC_3802.jpg"
+import img6 from "../images/Aparajita/DSC_3791.jpg"
+import img7 from "../images/Aparajita/DSC_3797.jpg"
+import img8 from "../images/Aparajita/DSC_3796.jpg"
 
 function Aparajita() {
   const AparajitaImages = [
-    "DSC_3809.jpg",
-    "DSC_3789.jpg",
-    "DSC_3777.jpg",
-    "DSC_3832.jpg",
-    "DSC_3802.jpg",
-    "DSC_3791.jpg",
-    "DSC_3797.jpg",
-    "DSC_3796.jpg",
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8
   ];
   return (
     <section
@@ -59,15 +67,11 @@ function Aparajita() {
         </div>
       </div>
       <div className="md:p-10 lg:p-10 p-1">
-        <DynamicCarousel
-          imageFiles={AparajitaImages}
-          folderName="Aparajita"
-          animationHandler="fade"
-          interval={2000}
-          swipeable={true}
-          autoPlay={true}
-          useKeyboardArrows={true}
-        />
+      <CottageCarousel autoslide={true}>
+          {AparajitaImages.map((s)=>(
+            <img src={s} className="w-full h-full object-cover object-center aspect-video"/>
+          ))}
+        </CottageCarousel>
       </div>
 
       <div className="mb-10 mt-5">

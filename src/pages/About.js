@@ -1,5 +1,6 @@
 import React from "react";
-import BgAnimation from "../components/BgAnimation";
+// import BgAnimation from "../components/BgAnimation";
+// import peacock from "../images/peacock.png";
 
 function About() {
   return (
@@ -39,7 +40,12 @@ function About() {
           </p>
         </div>
       </div>
-      <BgAnimation />
+      <div className="w-[800px] h-[400px] bg-[URL('/src/images/peacock.png')] bg-cover bg-center">
+      <div class="w-full h-full flex  justify-center items-center backdrop-brightness-50">
+                <span class="text-white text-4xl w-1/2 text-center">Here is an example of black overlay on an image</span>
+        </div>
+      </div>
+
     </section>
   );
 }

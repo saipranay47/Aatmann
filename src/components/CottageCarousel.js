@@ -1,9 +1,10 @@
 import React from "react";
-import { useState, useEffect } from "react";
 import left from "../images/chevron-left.svg";
 import right from "../images/chevron-right.svg";
-const ImageCarousel = ({ children: slides, imagePlace, autoslide=false,autoslideinterval=3000}) => {
-  const [curr, setCurr] = useState(0);
+import { useState,useEffect } from "react";
+const CottageCarousel=({children:slides,autoslide=false,autoslideinterval=3000})=>{
+
+    const [curr, setCurr] = useState(0);
   const prev = () =>
     setCurr((curr) => (curr === 0 ? slides.length - 1 : curr - 1));
   const next = () =>
@@ -14,19 +15,14 @@ const ImageCarousel = ({ children: slides, imagePlace, autoslide=false,autoslide
     const slideinterval=setInterval(next, autoslideinterval)
     return()=>clearInterval(slideinterval)
   })
-  return (
-    <div
-      className={`overflow-hidden relative md:h-[470px] sm:rounded-[60px]  ${
-        imagePlace == "left" ? "md:ml-[30px] " : "md:mr-[30px] "
-      }`}
-    >
-      <div
-        className="flex transition-transform ease-out duration-500 "
-        style={{ transform: `translateX(-${curr * 100}%)` }}
-      >
-        {slides}
-      </div>
-      <div className="absolute inset-0 flex items-center justify-between p-4">
+return(
+    <div className="overflow-hidden relative border-2 border-white w-[95vw] mx-auto  "
+    style={{ maxHeight: "650px" }}>
+        <div className="flex transition-transform ease-out duration-500 "
+        style={{ transform: `translateX(-${curr * 100}%)` }}>
+            {slides}
+        </div>
+        <div className="absolute inset-0 flex items-center justify-between p-4">
         <button onClick={prev}>
           <img
             src={left}
@@ -55,7 +51,8 @@ const ImageCarousel = ({ children: slides, imagePlace, autoslide=false,autoslide
         ))}
       </div>
       </div>
+
     </div>
-  );
-};
-export default ImageCarousel;
+)
+}
+export default CottageCarousel;
