@@ -19,7 +19,9 @@ function Footer() {
 
             <p className="text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 w-60 mt-6">
               Dahanu charoti road, Saravali, next to r.s.t weight bridge,
-              Dahanu, Maharashtra 401602
+              Dahanu, Maharashtra 401602<br></br>
+              +91 87660 15085<br></br>
+              aatmanndahanu@gmail.com
             </p>
           </div>
           <div className="flex flex-col md:items-end sm:items-end"> 

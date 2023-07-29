@@ -1,38 +1,54 @@
 import React from "react";
 import CulinaryOffsetImages from "../components/CulinaryOffsetImages";
-// import food from "../images/food1.jpeg"
-// import food1 from "../images/food1.jpeg";
-// import food2 from "../images/food2.jpeg";
-// import food3 from "../images/food3.jpeg";
-import lunch from "../images/lunch.jpeg"
+import bf1 from "../images/Breakfast/bf1.jpeg"
+import bf2 from "../images/Breakfast/bf2.jpeg"
+import bf3 from "../images/Breakfast/bf3.jpeg"
+import bf4 from "../images/Breakfast/bf4.jpeg"
+import bf5 from "../images/Breakfast/bf5.jpeg"
+import bf6 from "../images/Breakfast/bf6.jpeg"
+import lunch1 from "../images/Lunch/lunch1.jpeg"
+import lunch2 from "../images/Lunch/lunch2.jpeg"
+import lunch3 from "../images/Lunch/lunch3.jpeg"
+import lunch4 from "../images/Lunch/lunch4.jpeg"
+import lunch5 from "../images/Lunch/lunch5.jpeg"
+import lunch6 from "../images/Lunch/lunch6.jpeg"
+import lunch7 from "../images/Lunch/lunch7.jpeg"
+import dinner from "../images/Dinner/dinner.jpeg"
+import dinner2 from "../images/Dinner/dinner2.jpeg"
+import dinner3 from "../images/Dinner/dinner3.jpeg"
+import dinner4 from "../images/Dinner/dinner4.jpeg"
+import dinner5 from "../images/Dinner/dinner5.jpeg"
 import tea from "../images/tea.jpeg"
-import dinner from "../images/dinner.jpeg"
+import tea2 from "../images/tea2.jpg"
 
 function CulinaryDelights() {
 const breakfastImages=[
-  lunch,
-  tea,
-  dinner
+  bf1,bf2,bf3,bf4,bf5,bf6
 ];
 const lunchImages=[
-  lunch,
-  tea,
-  dinner
+  lunch1,
+  lunch2,
+  lunch3,
+  lunch4,
+  lunch5,
+  lunch6,
+  lunch7,
 ];
 const snacksImages=[
-  lunch,
   tea,
-  dinner
+  tea2
 ];
 const dinnerImages=[
-  lunch,
-  tea,
-  dinner
+  dinner,
+  dinner2,
+  dinner3,
+  dinner4,
+  dinner5,
 ];
 
   return (
     <section
-      className="flex justify-center items-center flex-col"
+      className="flex justify-center items-center flex-col gap-10 lg:gap-20"
       
     >
       <br />
@@ -64,6 +80,8 @@ const dinnerImages=[
         img={dinnerImages}
         imagePlace="left"
       />
+      <br />
+
     </section>
   );
 }

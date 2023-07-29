@@ -16,8 +16,8 @@ const ImageCarousel = ({ children: slides, imagePlace, autoslide=false,autoslide
   })
   return (
     <div
-      className={`overflow-hidden relative md:h-[470px] sm:rounded-[60px]  ${
-        imagePlace == "left" ? "md:ml-[30px] " : "md:mr-[30px] "
+      className={`overflow-hidden relative lg:rounded-[60px] h-full ${
+        imagePlace == "left" ? "lg:ml-[30px] " : "lg:mr-[30px] "
       }`}
     >
       <div
@@ -32,6 +32,7 @@ const ImageCarousel = ({ children: slides, imagePlace, autoslide=false,autoslide
             src={left}
             width="30px"
             className="rounded-3xl p-1 shadow bg-white/80 text-gray-800 hover:bg-white "
+            
           />
         </button>
         <button onClick={next}>
@@ -39,6 +40,7 @@ const ImageCarousel = ({ children: slides, imagePlace, autoslide=false,autoslide
             src={right}
             width="30px"
             className="rounded-3xl p-1 shadow bg-white/80 text-gray-800 hover:bg-white"
+            
           />
         </button>
       </div>
