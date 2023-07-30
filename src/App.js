@@ -20,7 +20,7 @@ function App() {
     <div
       className="App bg-[#31553b]"
       style={{
-        backgroundImage: "url(./noice.png)",
+        backgroundImage: "url(/noice.png)",
       }}
     >
       <AppHeader />
