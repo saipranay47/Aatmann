@@ -107,7 +107,7 @@ function Home() {
           </h1>
 
           <div className="container mx-auto pt-8">
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap justify-center">
               {/* card ketaki */}
               <div className="w-full md:w-1/3 p-5 mb-10">
                 <div className="text-tex rounded-lg overflow-hidden">
@@ -216,7 +216,6 @@ function Home() {
       <section className=" min-h-screen flex justify-center items-center flex-col">
         <Feedback />
       </section>
-     
     </div>
   );
 }

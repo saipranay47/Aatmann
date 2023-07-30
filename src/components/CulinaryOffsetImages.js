@@ -14,13 +14,11 @@ function CulinaryOffsetImages({
     <div>
       <section className={sectionClass}>
         {imagePlace === "left" && (
-
-          <ImageCarousel imagePlace="left"  autoslide={true}  >
-            {img.map((s)=>(
-                <img src={s} className="object-fill"/>
+          <ImageCarousel imagePlace="left" autoslide={true} h={true}>
+            {img.map((s) => (
+              <img src={s} className="object-fill" />
             ))}
           </ImageCarousel>
-
         )}
 
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
@@ -30,19 +28,15 @@ function CulinaryOffsetImages({
             </h2>
 
             <p className=" text-tex md:my-4 md:block">{discription}</p>
-
-
           </div>
         </div>
-                
+
         {imagePlace === "right" && (
-
-          <ImageCarousel imagePlace="right" autoslide={true} >
-          {img.map((s)=>(
-              <img src={s} className="object-fill"/>
-          ))}
-        </ImageCarousel>
-
+          <ImageCarousel imagePlace="right" autoslide={true} h={true}>
+            {img.map((s) => (
+              <img src={s} className="object-fill" />
+            ))}
+          </ImageCarousel>
         )}
       </section>
     </div>

@@ -72,9 +72,12 @@ function Hazara() {
         </div>
       </div>
       <div className="md:p-10 lg:p-10 p-1">
-         <CottageCarousel autoslide={true}>
-          {HazaraImages.map((s)=>(
-            <img src={s} className="w-full h-full object-cover object-center aspect-video"/>
+        <CottageCarousel autoslide={true}>
+          {HazaraImages.map((s) => (
+            <img
+              src={s}
+              className="w-full h-full object-cover object-center aspect-video"
+            />
           ))}
         </CottageCarousel>
       </div>
@@ -87,7 +90,7 @@ function Hazara() {
           </span>
         </h1>
         <div className="container mx-auto pt-8">
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap justify-center">
             <div className="text-tex rounded-lg overflow-hidden md:m-10 lg:m-10 m-1 hover:shadow-xl">
               <Link className="relative" to="/cottages/Ketaki">
                 <img

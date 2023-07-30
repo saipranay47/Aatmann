@@ -35,10 +35,7 @@ function Ketaki() {
     img12
   ];
   return (
-    <section
-      className=" min-h-screen flex justify-center items-center flex-col"
-      
-    >
+    <section className=" min-h-screen flex justify-center items-center flex-col">
       <div className="min-h-screen mt-10">
         <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd text-center ">
           Ketaki{" "}
@@ -75,15 +72,16 @@ function Ketaki() {
         </div>
       </div>
 
-
       <div className="md:p-10 lg:p-10 p-1">
         <CottageCarousel autoslide={true}>
-          {KetakiImages.map((s)=>(
-            <img src={s} className="w-full h-full object-cover object-center aspect-video"/>
+          {KetakiImages.map((s) => (
+            <img
+              src={s}
+              className="w-full h-full object-cover object-center aspect-video"
+            />
           ))}
         </CottageCarousel>
       </div>
-
 
       <div className="mb-10 mt-5">
         <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd text-center ">
@@ -93,7 +91,7 @@ function Ketaki() {
           </span>
         </h1>
         <div className="container mx-auto pt-8">
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap justify-center">
             <div className="text-tex rounded-lg overflow-hidden md:m-10 lg:m-10 m-1 hover:shadow-xl">
               <Link className="relative" to="/cottages/hazara">
                 <img

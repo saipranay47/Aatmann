@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import left from "../images/chevron-left.svg";
 import right from "../images/chevron-right.svg";
-const ImageCarousel = ({ children: slides, imagePlace, autoslide=false,autoslideinterval=3000}) => {
+const ImageCarousel = ({ children: slides, imagePlace, autoslide=false,autoslideinterval=3000, h }) => {
   const [curr, setCurr] = useState(0);
   const prev = () =>
     setCurr((curr) => (curr === 0 ? slides.length - 1 : curr - 1));
@@ -16,7 +16,7 @@ const ImageCarousel = ({ children: slides, imagePlace, autoslide=false,autoslide
   })
   return (
     <div
-      className={`overflow-hidden relative lg:rounded-[60px] h-full ${
+      className={`overflow-hidden relative lg:rounded-[60px] ${h == true ? "h-full" : " "} ${
         imagePlace == "left" ? "lg:ml-[30px] " : "lg:mr-[30px] "
       }`}
     >

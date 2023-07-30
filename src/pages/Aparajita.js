@@ -82,7 +82,7 @@ function Aparajita() {
           </span>
         </h1>
         <div className="container mx-auto pt-8">
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap justify-center">
             <div className="text-tex rounded-lg overflow-hidden md:m-10 lg:m-10 m-1 hover:shadow-xl">
               <Link className="relative" to="/cottages/hazara">
                 <img
