@@ -1,31 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "../index.css";
 const BgAnimation = () => {
-  const [bgPosition, setBgPosition] = useState(-900);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setBgPosition((prevPosition) => prevPosition + -1);
-    }, 10);
-
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
-  const bgStyle = {
-    backgroundPosition: `50% ${bgPosition}px`,
-  };
-
   return (
-    <div className="relative bottom-0">
-      <div className="w-screen overflow-hidden relative bgp">
-        <div className="absolute inset-0 bg-cover bggg" style={bgStyle}></div>
-        <img
-          className="absolute bottom-0 w-full"
-          src="http://www.farmofhappiness.com/images/footer-farm.png"
-          alt="Farm Stay"
-        />
-      </div>
+    <div className="h-[400px] flex justify-center items-center bg-white w-screen mt-10 lg:mt-0" >
+      <img src="/logoV.png" alt="" className="h-full object-cover"/>
+      {/* <h2 className=" text-5xl text-or font-pd font-bold">"From Nature With Nature"</h2> */}
     </div>
   );
 };
