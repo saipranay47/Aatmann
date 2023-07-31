@@ -82,7 +82,7 @@ const dinnerImages=[
 
             <ImageCarousel imagePlace="left" autoslide={true} h={false}>
               {dinnerImages.map((s) => (
-                <img src={s} className="object-fill" />
+                <img src={s} alt="culinary delights" className="object-fill" />
               ))}
             </ImageCarousel>
 

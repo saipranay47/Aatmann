@@ -1,13 +1,9 @@
 import React from "react";
 import FAQSection from "../components/FAQSection";
-import Whatsapp from "../components/Whatsapp";
 
 function Contact() {
   return (
-    <section
-      className=" min-h-screen flex justify-center items-center flex-col"
-      
-    >
+    <section className=" min-h-screen flex justify-center items-center flex-col">
       <div className="flex flex-col md:flex-row w-full text-tex p-5">
         <div className="md:w-7/12 p-4">
           <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd mb-8">
@@ -16,12 +12,12 @@ function Contact() {
           </h1>
           <div className="flex w-full items-center justify-between flex-wrap lg-mb-0 max-w-2xl">
             <div className="">
-              <p className="uppercase">Phone</p>
-              <p className="text-3xl">+91 87660 15085</p>
+              <p className="uppercase max-md:text-sm">Phone</p>
+              <p className="md:text-3xl text-xl">+91 87660 15085</p>
             </div>
             <div className="">
-              <p className="uppercase">Email</p>
-              <p className="text-3xl">aatmanndahanu@gmail.com</p>
+              <p className="uppercase max-md:text-sm">Email</p>
+              <p className="md:text-3xl text-xl">aatmanndahanu@gmail.com</p>
             </div>
           </div>
           <FAQSection />

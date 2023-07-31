@@ -1,4 +1,3 @@
-import { keyboard } from "@testing-library/user-event/dist/keyboard";
 import React from "react";
 import KetakiImg from "../images/ketaki.jpeg";
 import HazaraImg from "../images/hazara.jpeg";
@@ -69,7 +68,7 @@ function Aparajita() {
       <div className="md:p-10 lg:p-10 p-1">
       <CottageCarousel autoslide={true}>
           {AparajitaImages.map((s)=>(
-            <img src={s} className="w-full h-full object-cover object-center aspect-video"/>
+            <img src={s} alt="AparajitaImage" className="w-full h-full object-cover object-center aspect-video"/>
           ))}
         </CottageCarousel>
       </div>

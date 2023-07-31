@@ -11,7 +11,7 @@ function Footer() {
         <div class="sm:flex sm:items-center sm:justify-between">
           <div>
             <a
-              href="https://aatmann.pages.dev/"
+              href="https://www.aatmanndahanu.com"
               class="flex items-center mb-4 sm:mb-0"
             >
               <img src={logo} alt="aatmann logo" className="max-h-8" />
@@ -24,10 +24,10 @@ function Footer() {
               aatmanndahanu@gmail.com
             </p>
           </div>
-          <div className="flex flex-col md:items-end sm:items-end"> 
+          <div className="flex flex-col md:items-end sm:items-end">
             <div className="flex flex-row  pt-3 w-36 justify-between mb-6 md:mb-9 md:mr-6 mr-4">
               <a href="https://www.instagram.com/aatmann.dahanu/">
-              <img src={instagram} alt="instagram-logo"/>
+                <img src={instagram} alt="instagram-logo" />
               </a>
               <a href="https://api.whatsapp.com/send/?phone=918766015085&text&type=phone_number&app_absent=0">
                 <img src={whatsapp} alt="whatsapp-logo" />
@@ -37,36 +37,36 @@ function Footer() {
               </a>
             </div>
             <div>
-            <ul class="flex    flex-row flex-wrap  text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 md:justify-between">
-              <li>
-                <Link to="/about" class="mr-4 hover:underline md:mr-6 ">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link to="/tribute" class="mr-4 hover:underline md:mr-6 ">
-                  Tribute
-                </Link>
-              </li>
-              <li>
-                <Link to="/activities" class="mr-4 hover:underline md:mr-6 ">
-                  Activities
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/culinary-delights"
-                  class="mr-4 hover:underline md:mr-6 "
-                >
-                  Culinary Delights
-                </Link>
-              </li>
-              <li>
-                <Link to="/contact" class="mr-4 hover:underline md:mr-6 ">
-                  Contact
-                </Link>
-              </li>
-            </ul>
+              <ul class="flex    flex-row flex-wrap  text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 md:justify-between">
+                <li>
+                  <Link to="/about" class="mr-4 hover:underline md:mr-6 ">
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/tribute" class="mr-4 hover:underline md:mr-6 ">
+                    Tribute
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/activities" class="mr-4 hover:underline md:mr-6 ">
+                    Activities
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/culinary-delights"
+                    class="mr-4 hover:underline md:mr-6 "
+                  >
+                    Culinary Delights
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/contact" class="mr-4 hover:underline md:mr-6 ">
+                    Contact
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -74,7 +74,7 @@ function Footer() {
         <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
           {" "}
           Copyright © 2023{" "}
-          <a href="https://aatmann.pages.dev/" class="hover:underline">
+          <a href="https://www.aatmanndahanu.com/" class="hover:underline">
             Aatmann Dahanu
           </a>
           . All rights reserved.

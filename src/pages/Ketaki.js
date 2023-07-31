@@ -1,4 +1,3 @@
-import { keyboard } from "@testing-library/user-event/dist/keyboard";
 import React from "react";
 import KetakiImg from "../images/ketaki.jpeg";
 import HazaraImg from "../images/hazara.jpeg";
@@ -77,6 +76,7 @@ function Ketaki() {
           {KetakiImages.map((s) => (
             <img
               src={s}
+              alt="KetakiImg"
               className="w-full h-full object-cover object-center aspect-video"
             />
           ))}

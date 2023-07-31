@@ -2,8 +2,6 @@ import React from "react";
 import Ketaki from "../images/ketaki.jpeg";
 import Hazara from "../images/hazara.jpeg";
 import Aparajita from "../images/aparajita.jpeg";
-import Arrow from "../images/arrow.svg";
-import Buttonsp from "../components/Buttonsp";
 import ContentOffsetImage from "../components/ContentOffsetImage";
 
 function Cottages() {

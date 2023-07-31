@@ -1,4 +1,3 @@
-import { keyboard } from "@testing-library/user-event/dist/keyboard";
 import React from "react";
 import KetakiImg from "../images/ketaki.jpeg";
 import HazaraImg from "../images/hazara.jpeg";
@@ -76,6 +75,7 @@ function Hazara() {
           {HazaraImages.map((s) => (
             <img
               src={s}
+              alt="dsds"
               className="w-full h-full object-cover object-center aspect-video"
             />
           ))}
