@@ -1,32 +1,40 @@
-import { keyboard } from "@testing-library/user-event/dist/keyboard";
 import React from "react";
 import KetakiImg from "../images/ketaki.jpeg";
 import HazaraImg from "../images/hazara.jpeg";
 import AparajitaImg from "../images/aparajita.jpeg";
 import Arrow from "../images/arrow.svg";
-import DynamicCarousel from "../components/DynamicCarousel";
+import CottageCarousel from "../components/CottageCarousel";
 import { Link } from "react-router-dom";
+import img1 from "../images/Ketki/DSC_3348.jpg"
+import img2 from "../images/Ketki/DSC_3413.jpg"
+import img3 from "../images/Ketki/DSC_3605.jpg"
+import img4 from "../images/Ketki/DSC_3400.jpg"
+import img5 from "../images/Ketki/DSC_3396.jpg"
+import img6 from "../images/Ketki/DSC_3142.jpg"
+import img7 from "../images/Ketki/DSC_3422.jpg"
+import img8 from "../images/Ketki/DSC_3120.jpg"
+import img9 from "../images/Ketki/DSC_3123.jpg"
+import img10 from "../images/Ketki/DSC_3127.jpg"
+import img11 from "../images/Ketki/DSC_3327.jpg"
+import img12 from "../images/Ketki/DSC_3093.jpg"
 
 function Ketaki() {
   const KetakiImages = [
-    "DSC_3348.jpg",
-    "DSC_3413.jpg",
-    "DSC_3605.jpg",
-    "DSC_3400.jpg",
-    "DSC_3396.jpg",
-    "DSC_3142.jpg",
-    "DSC_3422.jpg",
-    "DSC_3120.jpg",
-    "DSC_3123.jpg",
-    "DSC_3127.jpg",
-    "DSC_3327.jpg",
-    "DSC_3093.jpg",
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img9,
+    img10,
+    img11,
+    img12
   ];
   return (
-    <section
-      className=" min-h-screen flex justify-center items-center flex-col"
-      
-    >
+    <section className=" min-h-screen flex justify-center items-center flex-col">
       <div className="min-h-screen mt-10">
         <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd text-center ">
           Ketaki{" "}
@@ -49,7 +57,7 @@ function Ketaki() {
               or Maa saraswati
             </span>
           </h1>
-          <p className="text-sm md:w-2/3 md:text-left">
+          <p className="text-base md:w-2/3 md:text-left">
             Experience tranquility in the Ketaki Cottage, devoted to Maa
             Saraswati, the goddess of knowledge. The cottage is adorned with a
             soothing white theme, inspired by the shloka "ya shwet padmasana."
@@ -62,16 +70,17 @@ function Ketaki() {
           </p>
         </div>
       </div>
+
       <div className="md:p-10 lg:p-10 p-1">
-        <DynamicCarousel
-          imageFiles={KetakiImages}
-          folderName="Ketki"
-          animationHandler="fade"
-          interval={2000}
-          swipeable={true}
-          autoPlay={true}
-          useKeyboardArrows={true}
-        />
+        <CottageCarousel autoslide={true}>
+          {KetakiImages.map((s) => (
+            <img
+              src={s}
+              alt="KetakiImg"
+              className="w-full h-full object-cover object-center aspect-video"
+            />
+          ))}
+        </CottageCarousel>
       </div>
 
       <div className="mb-10 mt-5">
@@ -82,7 +91,7 @@ function Ketaki() {
           </span>
         </h1>
         <div className="container mx-auto pt-8">
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap justify-center">
             <div className="text-tex rounded-lg overflow-hidden md:m-10 lg:m-10 m-1 hover:shadow-xl">
               <Link className="relative" to="/cottages/hazara">
                 <img

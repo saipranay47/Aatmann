@@ -1,5 +1,4 @@
 import React from "react";
-import ActivityImage from "../images/acc.png";
 import Food1 from "../images/food1.jpeg";
 import Food2 from "../images/food2.jpeg";
 import Food3 from "../images/food3.jpeg";
@@ -71,7 +70,7 @@ function ActivitiesSection() {
             className="p-3 rounded-2xl md:w-2/5 lg:w-1/2 w-full object-cover"
           />
         </div>
-        <div className="flex flex-col lg:w-1/3 md:w-1/3 w-full p-4 pl-0 items-start my-auto">
+        <div className="flex flex-col lg:w-1/3 md:w-1/3 w-full p-4 pl-0 items-start my-auto max-md:ml-4">
           <h3 className=" font-semibold text-4xl text-or mb-2 object-cover">
             Taste of Paradise
           </h3>

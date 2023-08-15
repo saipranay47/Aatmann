@@ -13,13 +13,14 @@ import ScrollToTop from "./components/ScrollToTop";
 import Whatsapp from "./components/Whatsapp";
 import Activities from "./pages/Activities";
 import Reviews from "./pages/Reviews";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div
       className="App bg-[#31553b]"
       style={{
-        backgroundImage: "url(./noice.png)",
+        backgroundImage: "url(/noice.png)",
       }}
     >
       <AppHeader />
@@ -44,6 +45,7 @@ function App() {
           {/* <Route path="/enquire-booking" element={<EnquireBooking />} /> */}
         </Routes>
       </div>
+      <Footer/>
     </div>
   );
 }

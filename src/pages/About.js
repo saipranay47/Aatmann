@@ -7,7 +7,7 @@ function About() {
       className="flex justify-center items-center flex-col"
       
     >
-      <div className="flex w-full justify-evenly lg:flex-row flex-col lg:p-0 p-5">
+      <div className="flex w-full justify-evenly lg:flex-row flex-col lg:p-0 p-5 pb-0">
         <div className="h-full lg:py-28 flex flex-col justify-evenly">
           <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd text-left ">
             About{" "}
@@ -39,6 +39,7 @@ function About() {
           </p>
         </div>
       </div>
+      
       <BgAnimation />
     </section>
   );

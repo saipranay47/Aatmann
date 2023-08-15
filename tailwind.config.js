@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     backgroundImage: {
       noice: "./src/images/noice.png",
+      // peacock:'/src/images/peacock.png',
     },
     extend: {
       colors: {

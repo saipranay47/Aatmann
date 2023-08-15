@@ -95,11 +95,15 @@ function Home() {
         </p>
       </section>
       <br />
-      <img src={divider} alt="" className=" bg-transparent w-full h-3" />
+      <img
+        src={divider}
+        alt=""
+        className=" bg-transparent w-[93%] h-3 m-auto"
+      />
       {/* cottage*/}
       <section className=" min-h-screen flex justify-center items-center">
         <div>
-          <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd text-center lg:mb-6">
+          <h1 className="max-sm:mt-10 sm:mb-10 lg:mb-14 text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd text-center ">
             Choose{" "}
             <span className=" font-normal italic font-pd text-or ">
               your cottage
@@ -107,7 +111,7 @@ function Home() {
           </h1>
 
           <div className="container mx-auto pt-8">
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap justify-center">
               {/* card ketaki */}
               <div className="w-full md:w-1/3 p-5 mb-10">
                 <div className="text-tex rounded-lg overflow-hidden">
@@ -196,14 +200,22 @@ function Home() {
         </div>
       </section>
       <br />
-      <img src={divider} alt="" className=" bg-transparent w-full h-3" />
+      <img
+        src={divider}
+        alt=""
+        className=" bg-transparent w-[93%] h-3 m-auto"
+      />
       {/* FAQ section */}
       <section className=" min-h-screen flex justify-center items-center flex-col">
         <FAQSection />
       </section>
 
       <br />
-      <img src={divider} alt="" className=" bg-transparent w-full h-3" />
+      <img
+        src={divider}
+        alt=""
+        className=" bg-transparent w-[93%] h-3 m-auto"
+      />
       <br />
 
       {/* Activites section */}
@@ -211,7 +223,11 @@ function Home() {
         <ActivitiesSection />
       </section>
       <br />
-      <img src={divider} alt="" className=" bg-transparent w-full h-3" />
+      <img
+        src={divider}
+        alt=""
+        className=" bg-transparent w-[93%] h-3 m-auto"
+      />
       {/* Feedback section */}
       <section className=" min-h-screen flex justify-center items-center flex-col">
         <Feedback />

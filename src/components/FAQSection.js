@@ -70,7 +70,7 @@ const FAQSection = () => {
           </div>
         </div>
         <div className="w-full md:w-1/2 p-2 md:ml-10">
-          <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd lg:mb-2 mb-8 md:mb-1">
+          <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd lg:mt-2 mt-8 md:mt-1">
             The most frequent{" "}
             <span className=" font-normal italic font-pd text-or ">
               questions
