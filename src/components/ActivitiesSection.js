@@ -1,5 +1,4 @@
 import React from "react";
-import ActivityImage from "../images/acc.png";
 import Food1 from "../images/food1.jpeg";
 import Food2 from "../images/food2.jpeg";
 import Food3 from "../images/food3.jpeg";
