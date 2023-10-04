@@ -1,5 +1,4 @@
 import React from "react";
-import ImageCarousel from "./ImageCarousel";
 
 function CulinaryOffsetImages({
   title,
@@ -13,13 +12,15 @@ function CulinaryOffsetImages({
   return (
     <div>
       <section className={sectionClass}>
-        {imagePlace === "left" && (
-          <ImageCarousel imagePlace="left" autoslide={true} h={true}>
-            {img.map((s) => (
-              <img src={s} className="object-fill" />
-            ))}
-          </ImageCarousel>
-        )}
+          {imagePlace === "left" && (
+              <div className="carousel carousel-center max-w-2xl p-4 space-x-4 bg-[#3a6b47] rounded-3xl">
+                {img.map((s) => (
+                    <div className="carousel-item ">
+                      <img src={s} alt={title} className="rounded-box h-[400px]" />
+                    </div>
+                ))}
+              </div>
+          )}
 
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
           <div className="mx-auto max-w-xl text-center sm:text-left">
@@ -32,11 +33,13 @@ function CulinaryOffsetImages({
         </div>
 
         {imagePlace === "right" && (
-          <ImageCarousel imagePlace="right" autoslide={true} h={true}>
-            {img.map((s) => (
-              <img src={s} className="object-fill" />
-            ))}
-          </ImageCarousel>
+            <div className="carousel carousel-center max-w-2xl p-4 space-x-4 bg-[#3a6b47] rounded-3xl">
+              {img.map((s) => (
+                  <div className="carousel-item ">
+                    <img src={s} alt={title} className="rounded-box h-[400px]" />
+                  </div>
+              ))}
+            </div>
         )}
       </section>
     </div>
