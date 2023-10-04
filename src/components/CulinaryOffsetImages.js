@@ -8,7 +8,7 @@ function CulinaryOffsetImages({title, discription, img, imagePlace = "right"}) {
         <div>
             <section className={sectionClass}>
                 {imagePlace === "left" && (
-                    <div className="carousel carousel-center max-w-2xl p-4 space-x-4 bg-[#3a6b47] rounded-3xl">
+                    <div className="carousel carousel-center max-w-2xl p-4 space-x-4 rounded-3xl">
                         {img.map((s) => (
                             <div className="carousel-item ">
                                 <img src={s} alt={title} className="rounded-box h-[400px]"/>
@@ -28,7 +28,7 @@ function CulinaryOffsetImages({title, discription, img, imagePlace = "right"}) {
                 </div>
 
                 {imagePlace === "right" && (
-                    <div className="carousel carousel-center max-w-2xl p-4 space-x-4 bg-[#3a6b47] rounded-3xl">
+                    <div className="carousel carousel-center max-w-2xl p-4 space-x-4 rounded-3xl">
                         {img.map((s) => (
                             <div className="carousel-item ">
                                 <img src={s} alt={title} className="rounded-box h-[400px]"/>
