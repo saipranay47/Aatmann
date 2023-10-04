@@ -39,28 +39,23 @@ function Reviews() {
       name: "Praveen Sharma",
       review:
         "Beautiful stay at Aatmann Dahanu, a great place for nature lovers. Ajayji, the owner, is very helpful, and the staff provides delicious home-cooked organic food. Enjoyed every bit of it. Go for this accommodation without any doubt!",
-    },
-    {
-      name: "Tanya Shah",
-      review:
-        "Our experience at Aatman was very pleasant. The hosts are very welcoming and took good care of us. The property is clean and hygienic, and the food is organic and healthy. If you are a nature lover, this is the place for you. Highly recommend for a perfect weekend.",
-    },
+    }
   ];
 
   return (
     <section
-      className=" min-h-screen flex justify-center items-center flex-col"
+      className=" min-h-screen flex justify-center items-center flex-col p-5 md:p-0"
       
     >
       <div className="h-full lg:py-28 flex flex-col justify-center items-center">
-        <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd text-center ">
+        <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd md:text-center mt-3 ">
           Real Stories from{" "}
           <span className=" font-normal italic font-pd text-or ">
             Our Happy Customers
           </span>
         </h1>
         <br />
-        <p className=" text-tex  text-lg max-w-4xl text-center">
+        <p className=" text-tex  text-lg max-w-4xl md:text-center">
           Check out our video testimonials from real customers who have
           experienced our products and services. See how we've helped them
           achieve their goals and why they keep coming back.

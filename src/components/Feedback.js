@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 function Feedback() {
   return (
-    <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
-      <div class="items-end justify-between sm:flex">
-        <div class="max-w-xl">
+    <div  className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
+      <div  className="items-end justify-between sm:flex">
+        <div  className="max-w-xl">
           <h1 className="text-3xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd lg:mb12">
             Read trusted reviews
             <span className=" font-normal italic font-pd text-or ">
@@ -15,7 +15,7 @@ function Feedback() {
             </span>
           </h1>
 
-          {/* <p class="mt-8 max-w-lg text-tex">
+          {/* <p  className="mt-8 max-w-lg text-tex">
             Discover what our customers have to say about their stay at Aatmann
             Farm Stay by reading our trusted reviews. Our valued guests share
             their honest and detailed feedback about their experience,
@@ -29,12 +29,12 @@ function Feedback() {
 
         <Link
           to="/reviews"
-          class="mr-4 mt-8 inline-flex shrink-0 items-center gap-2 rounded-full border border-or px-5 py-3 font-medium text-or hover:bg-or hover:text-tex sm:mt-0 lg:mt-8 cursor-pointer"
+           className="mr-4 mt-8 inline-flex shrink-0 items-center gap-2 rounded-full border border-or px-5 py-3 font-medium text-or hover:bg-or hover:text-tex sm:mt-0 lg:mt-8 cursor-pointer"
         >
           Read all reviews
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-4 w-4"
+             className="h-4 w-4"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -49,7 +49,7 @@ function Feedback() {
         </Link>
       </div>
 
-      <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div  className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <FeedbackCard
           testimonial="We stayed here (as a family of 8) and had a wonderful New Years celebration. This farm is vegetarian (no alcohol is served either). The warm hosts (Bafna family) go out of their way to ensure your comfort and satisfaction – be it with the delicious vegetarian spread, high quality ingredients, cleanliness and top notch service. They accommodated every request with a smile. The cottages are lovely (and recommended) and close to the reception / cafeteria, and the deluxe rooms are a 2 minute walk outside the property. The pool is wonderful, there is a less crowded beach (20 minutes away) and the games room is well stocked. Highly recommended for a getaway from the city."
           author="Naina Hiranandani"
