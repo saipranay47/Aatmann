@@ -16,6 +16,7 @@ function FeedbackCard({ testimonial, author }) {
         const button = document.createElement("button");
         button.type = "button";
         button.classList.add("showMoreLess");
+        button.style.color = "black"
         button.style.textDecoration = "underline"; // Add underline style
         button.style.paddingLeft = "1.5rem"; // Add padding left
         button.style.paddingBottom = "1.5rem"; // Add padding bottom

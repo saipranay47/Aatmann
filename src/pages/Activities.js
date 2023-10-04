@@ -4,18 +4,18 @@ import ImageGallery from "../components/ImageGallery";
 function Activities() {
   return (
     <section
-      className=" min-h-screen flex justify-center items-center flex-col"
+      className=" min-h-screen flex justify-center items-center flex-col p-6 md:p-0"
       
     >
       <div className="h-full lg:py-28 flex flex-col justify-center items-center">
-        <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd text-center ">
+        <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd md:text-center mt-5">
           Activities {" "}
           <span className=" font-normal italic font-pd text-or ">
             at Aatmann
           </span>
         </h1>
         <br />
-        <p className=" text-tex  text-lg max-w-4xl text-center">
+        <p className=" text-tex  text-lg max-w-4xl text-left md:text-center">
           It is close to nature hence, vegetable plucking, fruit plucking, spice
           harvesting, cycling around the 40- acre property, meditation on the
           machan, plunge pool are some of the activities you can enjoy with your
