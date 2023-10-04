@@ -14,7 +14,7 @@ function Footer() {
                 />
             </div>
 
-            <div className="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
+            <div className="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8 md:pb-12 pb-8">
                 <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
                     <div>
                         <p>
@@ -171,7 +171,7 @@ function Footer() {
                     </div>
                 </div>
 
-                <div className="mt-12 border-t border-gray-100 pt-12">
+                <div className="mt-12 border-t border-gray-100 md:pt-12">
                     <div className="sm:flex sm:items-center sm:justify-between">
                         <p className="mt-8 text-xs text-gray-500 sm:mt-0">
                             &copy; 2023. Aatmann Dahanu . All rights reserved.
