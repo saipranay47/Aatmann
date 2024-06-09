@@ -6,6 +6,32 @@ function Reviews() {
 
   const reviewsData = [
     {
+      name: "Mayank Masdekar",
+      review: "It was such an amazing experience, right from the food and ambience to the caring and personalized hospitality of everyone at Aatmann, would like to specially thank Kirti and Sampann for this sensual experience. Kudos to Aatmann!!! We will definitely visit again. Thank you."
+    },
+    {
+      name: "Rushi Patel",
+      review:
+        "We had a nice weekend. The food was really tasty and homely. The owner and the staff was really attentive to our needs. The accommodation was good too. Had a great time sitting at the machan (tree house).",
+    },
+    {
+      name: "Vilas Parmar ",
+      review:
+        "Aatmann farm experience was very nice and we spend memorable time with this farm. They provided multiple varities of organic food with delicious taste. The owner of this Farm, Mr.Ajay is very nice and attentive person. Love to visit this farm again in the future.",
+    },
+    {
+      name: "BHUPESH NAYAR",
+      review:
+        "Great quality  and quantity of food, polite and helpful staff, decent pricing nice place for family get together. It's  located in heart of nature.",
+    },
+    {
+
+      name: "Sajid Contractor ",
+      review:
+        "Warm hospitality. Fresh vegetables that I have never ever had during my life time. Fresh food was served. Menu was highlighted before meals.Farm house was too good. Rooms near and clean. The toiletries were non chemical. Definitely to be revisited. Very respectful Baphna family. Not to be missed during the rain. ",
+
+    },
+    {
       name: "Hanish Ved",
       review:
         "One of the best farm stays we have experienced. The hospitality extended by the family is exceptional. They ensure you are taken care of completely. The farm visits are well planned, and the cottages are spacious and well maintained. The food is fresh, kid-friendly, and everything is from the farm. Highly recommended.",
@@ -45,7 +71,7 @@ function Reviews() {
   return (
     <section
       className=" min-h-screen flex justify-center items-center flex-col p-5 md:p-0"
-      
+
     >
       <div className="h-full lg:py-28 flex flex-col justify-center items-center">
         <h1 className="text-4xl font-black sm:text-4xl md:text-6xl lg:text-7xl text-tex font-pd md:text-center mt-3 ">
@@ -64,10 +90,10 @@ function Reviews() {
       {/* <ImageGallery /> */}
       <section
         className="flex justify-center w-full flex-wrap"
-        
+
       >
         <div className=" lg:w-1/2 p-5 lg:pt-0 max-w-xl lg:sticky top-32 h-full w-full ">
-          <VideoTestimonials/>
+          <VideoTestimonials />
         </div>
         <div className="lg:w-1/2 min-w-[300px] w-full">
           <div className="grid grid-cols-1 gap-6  p-4 pt-0">
